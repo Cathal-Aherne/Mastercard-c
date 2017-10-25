@@ -4,20 +4,22 @@
 
 int main()
 {
-    char str []= {"hello world\n"};
+    char str []= {"hello shannon"};
     int len = sizeof(str)/sizeof(str[0]);
     strreverse(str, len);
     strreverse(str, len);
+
 }
 
 void strreverse(char str [], int len)
 {
     int i = 0;
     int j = len;
-    for(i=len+1;i>-1;i--)
+    for(i=len-2;i>-1;i--)
     {
         printf("%c", str[i]);
     }
+    printf("\n");
     return 0;
 
 

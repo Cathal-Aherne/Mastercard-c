@@ -3,7 +3,7 @@
 
 int main()
 {
-    int values[] = {1,1,2,2,2,2,3,3,3,4,4,4,4,5};
+    int values[] = {1,1,1,2,2,2,2,2,3};
     int frequency = 0;
     int most_common = values[0];
     int temp = 0;
